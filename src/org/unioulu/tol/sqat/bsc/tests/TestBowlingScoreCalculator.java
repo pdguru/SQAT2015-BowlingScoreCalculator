@@ -9,7 +9,7 @@ import org.unioulu.tol.sqat.bsc.Frame;
 
 public class TestBowlingScoreCalculator {
 
-	BowlingGame game;
+	static BowlingGame game;
 	
 	@Before
 	public void setup(){
