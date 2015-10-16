@@ -9,6 +9,7 @@ public class BowlingGame {
 	private Frame bonus;
 	static int sum = 0;
 	
+	//finished at 13:41
 	public BowlingGame(){}
 	
 	public void addFrame(Frame frame){
