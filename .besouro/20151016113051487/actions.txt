@@ -1,0 +1,11 @@
+FileOpenedAction 1444984251821 TestBowlingScoreCalculator.java 223 1 1 0
+FileOpenedAction 1444984918501 TestSudokuVerifier.java 557 4 4 3
+RefactoringAction 1444985085683 TestBowlingScoreCalculator.java ADD import org.junit.Before IMPORT
+RefactoringAction 1444985100022 TestBowlingScoreCalculator.java ADD void setup() METHOD
+RefactoringAction 1444985119128 TestBowlingScoreCalculator.java ADD import org.unioulu.tol.sqat.bsc.BowlingGame IMPORT
+RefactoringAction 1444985159450 TestBowlingScoreCalculator.java ADD BowlingGame game FIELD
+RefactoringAction 1444985182980 TestBowlingScoreCalculator.java RENAME test()=>void testGa() METHOD
+RefactoringAction 1444985183995 TestBowlingScoreCalculator.java RENAME testGa()=>void testGame() METHOD
+RefactoringAction 1444985187011 TestBowlingScoreCalculator.java RENAME testGame()=>void testGameAtStart() METHOD
+RefactoringAction 1444985231031 TestBowlingScoreCalculator.java ADD import org.unioulu.tol.sqat.bsc.Frame IMPORT
+EditAction 1444985387470 TestBowlingScoreCalculator.java 545 2 4 1
