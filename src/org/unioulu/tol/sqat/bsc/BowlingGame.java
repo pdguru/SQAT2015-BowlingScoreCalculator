@@ -16,7 +16,7 @@ public class BowlingGame {
 	}
 	
 	public void setBonus(int firstThrow, int secondThrow) {
-			
+		
 	}
 	
 	public int score(){
