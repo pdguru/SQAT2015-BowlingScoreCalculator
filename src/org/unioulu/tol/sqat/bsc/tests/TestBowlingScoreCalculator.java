@@ -31,11 +31,11 @@ public class TestBowlingScoreCalculator {
 	public void testFrameTwoAtFourFive() {
 
 		//arrange 
-		Frame frame2 = new Frame(4, 5);
+		Frame frame = new Frame(4, 5);
 		//act 
-		game.addFrame(frame2);
+		game.addFrame(frame);
 		//assert
-		assertEquals(9, frame2.score());
+		assertEquals(9, frame.score());
 		assertEquals(14, game.score());
 	}
 
