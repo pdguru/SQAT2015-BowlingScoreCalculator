@@ -48,7 +48,7 @@ public class TestBowlingScoreCalculator {
 		//assert
 		assertEquals(10, frame.score());
 		assertEquals(true, game.isNextFrameBonus());
-		assertEquals(29, game.score());
+		
 	}
 	
 }
