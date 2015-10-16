@@ -71,3 +71,5 @@ EditAction 1444989302620 BowlingGame.java 758 5 7 0
 UnitTestCaseAction 1444989303840 TestBowlingScoreCalculator.java OK
 UnitTestSessionAction 1444989303840 SQAT2015-BowlingScoreCalculator OK
 EditAction 1444989734939 BowlingGame.java 758 5 7 0
+RefactoringAction 1444990084614 BowlingGame.java REMOVE currentFrame FIELD
+EditAction 1444990118906 TestBowlingScoreCalculator.java 1012 4 12 5
