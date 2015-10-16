@@ -33,3 +33,16 @@ UnitTestSessionAction 1444986437409 TestBowlingScoreCalculator FAIL
 RefactoringAction 1444986500175 BowlingGame.java ADD int sum FIELD
 RefactoringAction 1444986519233 BowlingGame.java REMOVE sum FIELD
 EditAction 1444986583951 BowlingGame.java 660 5 5 0
+UnitTestCaseAction 1444986584243 TestBowlingScoreCalculator.java FAIL
+UnitTestSessionAction 1444986584244 TestBowlingScoreCalculator FAIL
+RefactoringAction 1444986890324 TestBowlingScoreCalculator.java ADD void testFrameData() METHOD
+RefactoringAction 1444986943998 TestBowlingScoreCalculator.java REMOVE testFrameData() METHOD
+RefactoringAction 1444987028909 TestBowlingScoreCalculator.java ADD void testFrame1Data() METHOD
+RefactoringAction 1444987094556 TestBowlingScoreCalculator.java REMOVE testFrame1Data() METHOD
+RefactoringAction 1444987116621 TestBowlingScoreCalculator.java ADD void testFrameTwoAtFourFive()/2 METHOD
+RefactoringAction 1444987122652 TestBowlingScoreCalculator.java RENAME testFrameTwoAtFourFive()/2=>void testFrameTAtFourFive() METHOD
+RefactoringAction 1444987125169 TestBowlingScoreCalculator.java RENAME testFrameTAtFourFive()=>void testFrameThreeAtFourFive() METHOD
+RefactoringAction 1444987136188 TestBowlingScoreCalculator.java RENAME testFrameThreeAtFourFive()=>void testFrameThreeWith() METHOD
+RefactoringAction 1444987139705 TestBowlingScoreCalculator.java RENAME testFrameThreeWith()=>void testFrameThreeWithSpare() METHOD
+RefactoringAction 1444988046659 BowlingGame.java ADD Frame currentFrame FIELD
+EditAction 1444988075574 Frame.java 809 6 9 0
