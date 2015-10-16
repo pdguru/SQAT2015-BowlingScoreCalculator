@@ -68,3 +68,6 @@ RefactoringAction 1444988932945 BowlingGame.java ADD int sum FIELD
 RefactoringAction 1444988937459 BowlingGame.java REMOVE sum FIELD
 EditAction 1444989302545 Frame.java 872 6 10 0
 EditAction 1444989302620 BowlingGame.java 758 5 7 0
+UnitTestCaseAction 1444989303840 TestBowlingScoreCalculator.java OK
+UnitTestSessionAction 1444989303840 SQAT2015-BowlingScoreCalculator OK
+EditAction 1444989734939 BowlingGame.java 758 5 7 0
