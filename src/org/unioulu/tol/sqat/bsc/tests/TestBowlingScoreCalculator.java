@@ -27,7 +27,7 @@ public class TestBowlingScoreCalculator {
 		assertEquals(5, frame1.score());
 		assertEquals(5, game.score());
 	}
-	
+		
 	@Test
 	public void testFrameTwoAtFourFive() {
 		
@@ -37,7 +37,17 @@ public class TestBowlingScoreCalculator {
 		game.addFrame(frame2);
 		//assert
 		assertEquals(9, frame2.score());
-		assertEquals(14, game.score());
 	}
 
+	@Test
+	public void testFrameThreeWithSpare() {
+		
+		//arrange 
+		Frame frame = new Frame(6, 4);
+		//act 
+		game.addFrame(frame);
+		//assert
+		assertEquals(15, frame.score());
+	}
+	
 }
