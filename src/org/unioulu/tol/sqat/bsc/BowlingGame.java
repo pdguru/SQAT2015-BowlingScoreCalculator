@@ -21,10 +21,12 @@ public class BowlingGame {
 	
 	public int score(){
 		
-		for(int i=0; i<frames.size();i++){
-			sum = sum + frameScore(i);
-		}
-		return sum;
+//		for(int i=0; i<frames.size();i++){
+//			sum = sum + frameScore(i);
+//		}
+//		return sum;
+		
+		return frames.get(0).score() + frames.get(1).score();
 	}
 	
 	public int frameScore(int index) {
