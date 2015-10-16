@@ -20,3 +20,4 @@ RefactoringAction 1444985440432 TestBowlingScoreCalculator.java RENAME testFrame
 RefactoringAction 1444985443451 TestBowlingScoreCalculator.java RENAME testFrameTwo=>void testFrameTwoAtStrike FIELD
 RefactoringAction 1444986142314 TestBowlingScoreCalculator.java RENAME testFrameTwoAtStrike()=>void testFrameTwoAtFourFive() METHOD
 EditAction 1444986299877 Frame.java 854 6 9 0
+EditAction 1444986299958 TestBowlingScoreCalculator.java 805 3 9 4
