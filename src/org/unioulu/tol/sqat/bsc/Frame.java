@@ -3,7 +3,7 @@ package org.unioulu.tol.sqat.bsc;
 public class Frame {
 	private int firstThrow;
 	private int secondThrow;
-	
+		
 	public Frame(int firstThrow, int secondThrow){
 		this.firstThrow = firstThrow;
 		this.secondThrow = secondThrow;
@@ -34,6 +34,7 @@ public class Frame {
 
 	//bonus throws
 	public int bonus(){
-		return 0;
+		if(!isLastFrame()) return firstThrow;
+		return firstThrow+secondThrow;
 	}
 }
