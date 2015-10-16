@@ -16,17 +16,26 @@ public class BowlingGame {
 	}
 	
 	public void setBonus(int firstThrow, int secondThrow) {
-		bonus = frames.get(frames.size()-1);
+		
 	}
 	
 	public int score(){
 		
 		for(int i=0; i<frames.size();i++){
-			sum = sum + frames.get(i).score();
+			sum = sum + frameScore(i);
 		}
 		return sum;
 	}
 	
+	public int frameScore(int index) {
+		if(index<frames.size()){
+			if(frames.get(index).isStrike() || frames.get(index).isSpare())
+				return frames.get(index).score()+frames.get(index+1).bonus();
+		}
+			return frames.get(index).score();
+			
+	}
+
 	public boolean isNextFrameBonus(){
 		Frame currentFrame = frames.get(frames.size()-1);
 		if(currentFrame.isSpare() || currentFrame.isStrike()) return true;

@@ -90,3 +90,4 @@ RefactoringAction 1444990574026 TestBowlingScoreCalculator.java RENAME testFrame
 RefactoringAction 1444990575543 TestBowlingScoreCalculator.java RENAME testFrameFourForThirdBonus()=>void testFrameFourForThirdsBonus() METHOD
 RefactoringAction 1444990713204 BowlingGame.java ADD int frameScore(int) METHOD
 EditAction 1444991179891 TestBowlingScoreCalculator.java 1259 5 16 7
+EditAction 1444991179975 BowlingGame.java 997 6 8 0
