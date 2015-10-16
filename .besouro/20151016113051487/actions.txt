@@ -103,3 +103,11 @@ RefactoringAction 1444991421128 BowlingGame.java REMOVE import java.util.Iterato
 RefactoringAction 1444991421128 BowlingGame.java REMOVE import java.util.Collection IMPORT
 RefactoringAction 1444991421129 BowlingGame.java REMOVE import java.util.ListIterator IMPORT
 EditAction 1444991437107 TestBowlingScoreCalculator.java 1266 5 16 7
+UnitTestCaseAction 1444991437407 TestBowlingScoreCalculator.java FAIL
+UnitTestSessionAction 1444991437408 TestBowlingScoreCalculator FAIL
+RefactoringAction 1444991611862 TestBowlingScoreCalculator.java ADD void test FIELD
+RefactoringAction 1444991613881 TestBowlingScoreCalculator.java RENAME test=>void testFrame FIELD
+RefactoringAction 1444991616399 TestBowlingScoreCalculator.java RENAME testFrame=>void testFrameFive FIELD
+RefactoringAction 1444991621436 TestBowlingScoreCalculator.java RENAME testFrameFive=>void testFrameFiveForStrike FIELD
+RefactoringAction 1444991623954 TestBowlingScoreCalculator.java RENAME testFrameFiveForStrike=>void testFrameFiveForStrike() METHOD
+EditAction 1444991687950 TestBowlingScoreCalculator.java 1490 6 20 9
