@@ -47,3 +47,4 @@ RefactoringAction 1444987139705 TestBowlingScoreCalculator.java RENAME testFrame
 RefactoringAction 1444988046659 BowlingGame.java ADD Frame currentFrame FIELD
 EditAction 1444988075574 Frame.java 809 6 9 0
 EditAction 1444988075660 TestBowlingScoreCalculator.java 963 4 11 4
+EditAction 1444988075743 BowlingGame.java 789 5 8 0
