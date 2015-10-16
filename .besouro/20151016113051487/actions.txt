@@ -94,3 +94,12 @@ EditAction 1444991179975 BowlingGame.java 997 6 8 0
 UnitTestCaseAction 1444991180289 TestBowlingScoreCalculator.java FAIL
 UnitTestSessionAction 1444991180290 TestBowlingScoreCalculator FAIL
 EditAction 1444991241326 TestBowlingScoreCalculator.java 1266 5 16 7
+UnitTestCaseAction 1444991241624 TestBowlingScoreCalculator.java FAIL
+UnitTestSessionAction 1444991241625 TestBowlingScoreCalculator FAIL
+RefactoringAction 1444991417104 BowlingGame.java ADD import java.util.Collection IMPORT
+RefactoringAction 1444991417105 BowlingGame.java ADD import java.util.Iterator IMPORT
+RefactoringAction 1444991417105 BowlingGame.java ADD import java.util.ListIterator IMPORT
+RefactoringAction 1444991421128 BowlingGame.java REMOVE import java.util.Iterator IMPORT
+RefactoringAction 1444991421128 BowlingGame.java REMOVE import java.util.Collection IMPORT
+RefactoringAction 1444991421129 BowlingGame.java REMOVE import java.util.ListIterator IMPORT
+EditAction 1444991437107 TestBowlingScoreCalculator.java 1266 5 16 7
