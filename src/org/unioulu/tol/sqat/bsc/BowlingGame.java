@@ -28,7 +28,7 @@ public class BowlingGame {
 	}
 	
 	public boolean isNextFrameBonus(){
-		 currentFrame = frames.get(frames.size());
+		 currentFrame = frames.get(frames.size()-1);
 		if(currentFrame.isSpare() || currentFrame.isStrike()) return true;
 		return false;
 	}
