@@ -81,3 +81,12 @@ EditAction 1444990433095 BowlingGame.java 787 5 7 0
 UnitTestCaseAction 1444990433449 TestBowlingScoreCalculator.java FAIL
 UnitTestSessionAction 1444990433449 TestBowlingScoreCalculator FAIL
 EditAction 1444990445807 TestBowlingScoreCalculator.java 981 4 11 4
+UnitTestCaseAction 1444990446108 TestBowlingScoreCalculator.java OK
+UnitTestSessionAction 1444990446109 TestBowlingScoreCalculator OK
+RefactoringAction 1444990553972 TestBowlingScoreCalculator.java ADD void testFrameThreeWithSpare()/2 METHOD
+RefactoringAction 1444990561989 TestBowlingScoreCalculator.java RENAME testFrameThreeWithSpare()/2=>void testFrameFourWithSpare() METHOD
+RefactoringAction 1444990569007 TestBowlingScoreCalculator.java RENAME testFrameFourWithSpare()=>void testFrameFourForBonus() METHOD
+RefactoringAction 1444990574026 TestBowlingScoreCalculator.java RENAME testFrameFourForBonus()=>void testFrameFourForThirdBonus() METHOD
+RefactoringAction 1444990575543 TestBowlingScoreCalculator.java RENAME testFrameFourForThirdBonus()=>void testFrameFourForThirdsBonus() METHOD
+RefactoringAction 1444990713204 BowlingGame.java ADD int frameScore(int) METHOD
+EditAction 1444991179891 TestBowlingScoreCalculator.java 1259 5 16 7

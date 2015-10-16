@@ -51,4 +51,17 @@ public class TestBowlingScoreCalculator {
 		
 	}
 	
+	@Test
+	public void testFrameFourForThirdsBonus() {
+		
+		//arrange 
+		Frame frame = new Frame(5,5);
+		//act 
+		game.addFrame(frame);
+		//assert
+		assertEquals(10, frame.score());
+		assertEquals(true, game.isNextFrameBonus());
+		assertEquals(29, game.score());
+	}
+	
 }
