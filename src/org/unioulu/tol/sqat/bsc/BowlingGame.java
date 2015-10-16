@@ -20,8 +20,8 @@ public class BowlingGame {
 	
 	public int score(){
 		int sum = 0;
-		for (Frame frame : frames) {
-			sum = sum + frame.score();
+		for(int i=0; i<frames.size();i++){
+			sum = sum + frames.get(i).score();
 		}
 		return sum;
 	}
