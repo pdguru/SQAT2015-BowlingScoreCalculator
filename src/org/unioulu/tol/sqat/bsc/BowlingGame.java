@@ -16,9 +16,7 @@ public class BowlingGame {
 	}
 	
 	public void setBonus(int firstThrow, int secondThrow) {
-		if(isNextFrameBonus()){
 			
-		}
 	}
 	
 	public int score(){
